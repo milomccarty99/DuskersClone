@@ -13,9 +13,15 @@ namespace DuskersClone
 
         public Mapify(int length, int width) // update with areas player can move/interact with
         {
+            this.length = length;
+            this.width = width;
 
         }
 
+        public String GetMap(Bot a, Bot b)
+        {
+            return "";
+        }
         
     }
 }
